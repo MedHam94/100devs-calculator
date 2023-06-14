@@ -21,8 +21,51 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
+main{
+  margin: 0 auto;
+  max-width: 500px;
+  height: 500px;
+  padding: 20px 20px;
+  background: black;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+       -o-border-radius: 10px;
+          border-radius: 10px;
 
+}
+.calc-display{
+  width: 90%;
+  height: 70px;
+  margin: 30px auto;
+  background-color: white ;
+}
+
+.calc-button{
+  margin: 0 auto;
+  width: 80%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc-button .button{
+  background: white;
+  width: 15%;
+  height: 50px;
+  margin: 10px;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+       -o-border-radius: 50%;
+          border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 
